@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.image{
+	position: relative;
+}
+.logo{
+	width: 50px;
+	margin-left: 25px;
+}
+.color{
+	background-color: #76c78f94;
+}
+.mobile{
+	display: none;
+}
+.left{
+	padding-right: 150px;
+}
+.nav-link2{
+	font-weight: 600;
+	color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 25px;
+}
+.nav-link2:hover{
+	color: #af1f31;
+}
+.concepts{
+	margin-top: 120px;
+}
+.heading{
+	font-weight: 300;
+	letter-spacing: .25px;
+	font-family: "Cormorant Garamond",Arial,Helvetica,sans-serif;
+	color: #000;
+	font-size: 38px;
+}
+.images{
+	padding: 10px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #76c78f;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.image:hover .overlay {
+  opacity: 1;
+}
+.footer{
+	margin-top: 30px;
+	padding: 20px;
+}
+.button{
+    color: white;
+    border: 1px solid!important;
+    border-radius: 9px!important;
+    background-color: #76c78f!important;
+    padding: 9px 18px;
+}
+.modal-title{
+    font-family: 'Train One', cursive;
+    font-weight: bold;
+    padding-left: 37%;
+    font-size: x-large;
+    color: white;
+}
+.pic{
+	padding: 20px 0px;
+}
+.line{
+	border: 1px solid #ccc;
+	width: 90%;
+	margin: 2%;
+}
+@media(max-width: 600px)
+{
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+	.nav-link2:hover{
+	    color: #76c78f;
+    }
+    .color{
+	    background-color: #76c78f;
+    }
+	.nav-link2{
+		line-height: 38px;
+	}
+	.left{
+		padding-left: 0px;
+	}
+    .heading{
+		font-size: 30px;
+		text-align: center;
+	}
+}		
